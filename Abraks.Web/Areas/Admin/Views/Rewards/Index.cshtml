@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Common.Admin.ViewModels.Rewards.RewardsViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>All Reward</h2>
+<a asp-area="Admin" asp-controller="Rewards" asp-action="Add" class="btn btn-success" value="Add Reward">Add Reward</a>
+<ul>
+    @Html.DisplayForModel()
+</ul>

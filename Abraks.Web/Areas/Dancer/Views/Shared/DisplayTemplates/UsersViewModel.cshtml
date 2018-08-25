@@ -1,0 +1,10 @@
+﻿@model UsersViewModel
+
+<tr>
+    <td>@Model.UserName</td>
+    <td>@Model.FullName</td>
+    <td class="text-right">
+        <a asp-area="Admin" asp-controller="Users" asp-action="Details" asp-route-id="@Model.Id"
+           class="btn btn-success">Details</a>
+    </td>
+</tr>

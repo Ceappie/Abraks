@@ -1,0 +1,14 @@
+﻿@model Common.Admin.ViewModels.Rewards.RewardsViewModel
+@{
+    ViewData["Title"] = "Rewards";
+}
+
+<tr>
+    <td>
+        @Model.Name
+    </td>
+    <td class="text-right">
+        <a asp-area="Dancer" asp-controller="Events" asp-action="Details" asp-route-id="@Model.Id"
+           class="btn btn-success">Details</a>
+    </td>
+</tr>

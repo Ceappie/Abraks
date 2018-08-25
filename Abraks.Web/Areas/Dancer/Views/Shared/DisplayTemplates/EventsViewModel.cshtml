@@ -1,0 +1,15 @@
+﻿@model EventsViewModel
+@{
+    ViewData["Title"] = "Events";
+}
+
+<tr>
+    <td>
+       @Model.Name
+    </td>
+    <td class="text-right">
+        <a asp-area="Dancer" asp-controller="Events" asp-action="Details" asp-route-id="@Model.Id"
+           class="btn btn-success">Details</a>
+    </td>
+</tr>
+

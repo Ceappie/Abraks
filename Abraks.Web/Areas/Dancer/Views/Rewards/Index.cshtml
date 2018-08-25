@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Common.Admin.ViewModels.Rewards.RewardsViewModel>
+@{
+    ViewData["Title"] = "Hall of Fame";
+}
+
+<h2>All Reward</h2>
+
+@if (this.User.IsInRole("Administrator"))
+{
+    <a asp-area="Admin" asp-controller="Rewards" asp-action="Add" class="btn btn-success" value="Add Reward">Add Reward</a>
+    <br/>
+}
+</br>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @Html.DisplayForModel()
+    </tbody>
+</table>

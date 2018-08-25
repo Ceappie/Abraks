@@ -1,0 +1,16 @@
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\obj\Debug\netcoreapp2.1\Abraks.Data.csprojAssemblyReference.cache
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\obj\Debug\netcoreapp2.1\Abraks.Data.csproj.CoreCompileInputs.cache
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\obj\Debug\netcoreapp2.1\Abraks.Data.AssemblyInfoInputs.cache
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\obj\Debug\netcoreapp2.1\Abraks.Data.AssemblyInfo.cs
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Data.deps.json
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Data.runtimeconfig.json
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Data.runtimeconfig.dev.json
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Data.dll
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Data.pdb
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Models.dll
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Models.pdb
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\obj\Debug\netcoreapp2.1\Abraks.Data.csproj.CopyComplete
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\obj\Debug\netcoreapp2.1\Abraks.Data.dll
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\obj\Debug\netcoreapp2.1\Abraks.Data.pdb
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Common.dll
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Data\bin\Debug\netcoreapp2.1\Abraks.Common.pdb

@@ -1,0 +1,18 @@
+﻿@model Common.Admin.ViewModels.Rewards.RewardDetailsViewModel
+@{
+    ViewData["Title"] = "Reward Details";
+}
+
+<div class="container-fluid">
+    <div class="row content">
+        <div class="col-sm-3 sidenav">
+                <img src="@Model.ImageUrl" height="370" width="250" />
+            </div>
+
+        <div class="col-sm-9">
+            <p><h1>@Model.Name</h1></p>
+            <p><strong>Description:</strong>@Model.Description</p>
+            <p><h4>Event: @Model.Event</h4></p>
+        </div>
+    </div>
+</div>

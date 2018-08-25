@@ -1,0 +1,23 @@
+﻿@model IEnumerable<EventsViewModel>
+@{
+    ViewData["Title"] = "Events";
+}
+
+<h2>All Events</h2>
+@if (this.User.IsInRole("Administrator"))
+{
+    <a asp-area="Admin" asp-controller="Events" asp-action="Add" class="btn btn-success" value="Add Event">Add Event</a>
+    <br/>
+}
+
+<br/>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @Html.DisplayForModel()
+    </tbody>
+</table>

@@ -1,0 +1,15 @@
+﻿@model Common.Admin.BindingModels.Comments.CommentCreatingBindingModel
+
+<form asp-area="Dancer" asp-controller="Comments" asp-action="Add" method="post">
+    <div class="conteiner-fluid text-center">
+        <p><strong>Comments:</strong></p>
+        <textarea name="Content" class="col-sm-12" rows="3"></textarea>
+    </div>
+    </br>
+    <div class="form-group row text-center">
+        <div class="col-sm-8 offset-2">
+            <input type="submit" class="btn btn-success" value="Add Comment" />
+        </div>
+    </div>
+</form>
+

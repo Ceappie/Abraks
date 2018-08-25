@@ -1,0 +1,54 @@
+﻿@model Common.Admin.BindingModels.Rewards.RewardAddingBindingModel
+@{
+    ViewData["Title"] = "Add Reward";
+}
+
+<h2>Add Reward</h2>
+<br />
+<form asp-area="Admin" asp-controller="Rewards" asp-action="Add" method="post">
+
+    <div class="container">
+        <div class="form-group row">
+            <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-8">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Description" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-8">
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="ImageUrl" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-8">
+                <input asp-for="ImageUrl" class="form-control" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label asp-for="Event" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-8">
+                <input asp-for="Event" class="form-control" />
+                <span asp-validation-for="Event" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-8 offset-2">
+                <input type="submit" class="btn btn-success" value="Add Rewards" />
+                <a asp-area="Admin" asp-controller="Rewards" asp-action="Index" class="btn btn-info">Cancel</a>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

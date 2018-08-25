@@ -1,0 +1,30 @@
+﻿@model EventsViewModel
+@{
+    ViewData["Title"] = "Events";
+}
+
+@*<table class="table table-striped">
+    <thead>
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">From</th>
+        <th scope="col">To</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>*@
+<li>
+    <a asp-area="Admin" asp-controller="Events" asp-action="Details" asp-route-id="@Model.Id">@Model.Name</a>
+</li>
+            @*</td>
+            <td>
+                @Model.StartDate
+            </td>
+            <td>
+                @Model.EndDate
+            </td>
+        </tr>
+    </tbody>
+</table>*@
+

@@ -1,0 +1,11 @@
+﻿@model IEnumerable<EventsViewModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>All Events</h2>
+<a asp-area="Admin" asp-controller="Events" asp-action="Add" class="btn btn-success" value="Add Event">Add Event</a>
+
+<ul>
+    @Html.DisplayForModel()
+</ul>

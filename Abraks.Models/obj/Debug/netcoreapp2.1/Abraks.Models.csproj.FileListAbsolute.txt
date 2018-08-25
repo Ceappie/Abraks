@@ -1,0 +1,14 @@
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\bin\Debug\netcoreapp2.1\Abraks.Models.deps.json
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\bin\Debug\netcoreapp2.1\Abraks.Models.dll
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\bin\Debug\netcoreapp2.1\Abraks.Models.pdb
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\obj\Debug\netcoreapp2.1\Abraks.Models.csprojAssemblyReference.cache
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\obj\Debug\netcoreapp2.1\Abraks.Models.csproj.CoreCompileInputs.cache
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\obj\Debug\netcoreapp2.1\Abraks.Models.AssemblyInfoInputs.cache
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\obj\Debug\netcoreapp2.1\Abraks.Models.AssemblyInfo.cs
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\obj\Debug\netcoreapp2.1\Abraks.Models.csproj.CopyComplete
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\obj\Debug\netcoreapp2.1\Abraks.Models.dll
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\obj\Debug\netcoreapp2.1\Abraks.Models.pdb
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\bin\Debug\netcoreapp2.1\Abraks.Common.dll
+E:\Projects\SoftUni\Abraks\Abraks\Abraks.Models\bin\Debug\netcoreapp2.1\Abraks.Common.pdb
